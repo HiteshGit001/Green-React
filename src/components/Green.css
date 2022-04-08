@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+.home-box{
+  height: 450px;
+  background-image: linear-gradient(rgba(92, 184, 117, 0.589),rgba(92, 184, 117, 0.514)),
+  url("https://bootstrapmade.com/demo/templates/Green/assets/img/slide/slide-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+.home-box .h-p{
+    text-align: center;
+    padding:0 20px;
+    color:white;
+}
+.home-box .h-h1{
+    color:white;
+}
+.home-box .h-btn{
+    padding: 10px 15px;
+    color:white;
+    background-color:#5cb874;
+    font-size:15px;
+    border:none;
+    border-radius: 10px;
+    transition:all 0.2s;
+}
+.home-box button:hover{
+    background-color:#82ec9e;
+}
+.h-setion{
+    padding: 20px 30px;
+    display:flex;
+    flex-direction: row;
+}

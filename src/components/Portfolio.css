@@ -1,0 +1,132 @@
+/* dis */
+.port-des{
+    text-align: center;
+    margin-top:60px;
+}
+.p-hr{
+    width: 70px;
+    height: 7px;
+    border:none;
+    background-color:#5cb874;
+}
+.p-p{
+    text-align: center;
+    margin:20px 50px;
+}
+/* pnav */
+.box{
+    margin-top: 20px;
+}
+.p-nav{
+    text-align: center;
+}
+.p-nav a{
+    padding: 10px 15px;
+    margin:10px 15px;
+    text-decoration: none;
+    color:black;
+    transition: all 0.5s;
+}
+.p-nav a:hover{
+    background-color:#5cb874;
+    border-radius: 5px;
+}
+/* pnav ends */
+/* dis end */
+.portfolio{
+    display:flex;
+    flex-direction:row;
+    text-align:center;
+    gap:20px;
+}
+
+.portfolio{
+    margin-left: 100px;
+}
+.p-img1 img{
+    width: 400px;
+    height: 450px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.p-img2 img{
+    width: 400px;
+    height: 450px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.p-img3 img{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.p-0, .p-1, .p-2, .p-3{
+    width: 400px;
+    height: 300px;
+}
+.p-img2 .pf-0{
+    width: 400px;
+    height: 350px;
+}
+.p-img2 .pf-2{
+    width: 400px;
+    height: 350px;
+}
+.p-img1{
+    overflow: hidden;
+}
+.p-img1:hover img{
+    transform: scale(1.6,1.6)
+}
+.p-img2{
+    overflow: hidden;
+}
+.p-img2:hover img{
+    transform: scale(1.6,1.6)
+}
+.p-img3{
+    overflow: hidden;
+}
+.p-img3:hover img{
+    transform: scale(1.6,1.6)
+}
+/* hover */
+.p-img1,.p-img2,.p-img3{
+    position:relative;
+}
+.p-hover2{
+    position:absolute;
+    top:0;
+    width: 400px;
+    height: 350px;
+    display:none;
+}
+.p-hover3{
+    position:absolute;
+    top:0;
+    width: 400px;
+    height: 300px;
+    display:none;
+}
+.p-hover1{
+    position:absolute;
+    top:0;
+    width: 400px;
+    height: 450px;
+    overflow:hidden;
+    display:none;
+    transition: all 0.5s;
+}
+.p-img2:hover .p-hover2{
+    display: block;
+    background-color:rgba(0, 0, 0, 0.411);
+}
+.p-img1:hover .p-hover1{
+    display: block;
+    background-color:rgba(0, 0, 0, 0.411);
+}
+.p-img3:hover .p-hover3{
+    display: block;
+    background-color:rgba(0, 0, 0, 0.411);
+}
